@@ -1,0 +1,43 @@
+* a0cc75f APÓS REFATORAÇÃO DO CODIGO
+* 607bf2b TESTES INVALIDOS PASSARAM
+* 949b12b TESTES INVALIDOS
+* 73a8729 GREEN: Caso quando MMM ==3000
+* 30bd84d RED: Caso quando MMM != 3000
+* 264cc44 GREEN: Caso quando MMXXV == 2025
+* ea7dc44 RED: Caso quando MMXXV !=2025
+* abbf5e6 GREEN: Caso quando MCMXC == 1990
+* 62966eb RED: Caso quando MCMXC !=1990
+* 56feccb GREEN: Caso quando XIV == 14
+* f4eaa4b RED: Caso quando XIV != 14
+* 522a815 GREEN: Caso quando CM == 900
+* c75de92 Caso quando CM != 900
+* e3cf787 GREEN: Caso quando CD == 400
+* d346a51 RED: Caso quando CD != 400
+* 55d8427 GREEN: Caso quando XC == 90
+* c219e47 RED: Caso quando XC != 90
+* 1923bae GREEN: Caso quando XL == 40
+* 0862297 RED: Caso quando XL != 40
+* cfd72e7 GREEN: Caso quando IX == 9
+* f17c6ff RED: Caso quando IX != 9
+* 0dde0d6 GREEN: Caso quando M == 1000
+* 9914bcb RED: Caso quando M != 1000
+* e56563a GREEN: Caso quando D == 500
+* 55217c5 RED: Caso quando D != 500
+* fdc4549 GREEN: Caso quando C == 100
+* 9a5e764 RED: Caso quando C != 100
+* f130eaa GREEN: Caso quando 50 == L
+* 0e9fa74 RED: Caso quando L != 50
+* ff79474 GREEN: Caso quando X == 10
+* 8432c4a RED: Caso quando X != 10
+* 5386024 GREEN: Caso quando VI = 6
+* dfe78fb RED: Caso quando VI != 6
+* 7bdf1af GREEN: Caso quando V == 5
+* 7542460 RED: Caso quando V != 5
+* 0c92b9a GREEN: Caso quando IV == 4
+* 114c007 RED: Caso quando IV != 4
+* 9c6824c GREEN: Caso quando III = 3
+* a50a54a GREEN: caso quando III != 3
+* 9ab26b3 GREEN: caso quando II = 2
+* a313034 RED: caso quando II != 2
+* 83a1927 GREEN: implementacao conversao de I para 1
+* 9b35cbd Primeiro teste
