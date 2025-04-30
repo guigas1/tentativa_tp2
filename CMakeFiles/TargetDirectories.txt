@@ -1,0 +1,5 @@
+/home/guiguinhas/Documentos/Projeto1_tp2/build/CMakeFiles/romanos.dir
+/home/guiguinhas/Documentos/Projeto1_tp2/build/CMakeFiles/runTests.dir
+/home/guiguinhas/Documentos/Projeto1_tp2/build/CMakeFiles/test.dir
+/home/guiguinhas/Documentos/Projeto1_tp2/build/CMakeFiles/edit_cache.dir
+/home/guiguinhas/Documentos/Projeto1_tp2/build/CMakeFiles/rebuild_cache.dir

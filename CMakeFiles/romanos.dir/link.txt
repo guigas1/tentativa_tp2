@@ -1,0 +1,2 @@
+/usr/bin/ar qc libromanos.a CMakeFiles/romanos.dir/romanos.cpp.o
+/usr/bin/ranlib libromanos.a
