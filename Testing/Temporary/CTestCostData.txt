@@ -1,2 +1,3 @@
-RunTests 10 0.000288944
+RunTests 10 0
 ---
+RunTests
