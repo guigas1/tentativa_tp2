@@ -1,33 +1,45 @@
-Start testing: Apr 29 23:10 -03
+Start testing: Apr 29 23:13 -03
 ----------------------------------------------------------
 1/1 Testing: RunTests
 1/1 Test: RunTests
 Command: "/home/guiguinhas/Documentos/Projeto1_tp2/build/runTests"
 Directory: /home/guiguinhas/Documentos/Projeto1_tp2/build
-"RunTests" start time: Apr 29 23:10 -03
+"RunTests" start time: Apr 29 23:13 -03
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
-[==========] Running 3 tests from 1 test suite.
+[==========] Running 4 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 3 tests from romanosTest
+[----------] 4 tests from romanosTest
 [ RUN      ] romanosTest.caso1
 [       OK ] romanosTest.caso1 (0 ms)
 [ RUN      ] romanosTest.caso2
 [       OK ] romanosTest.caso2 (0 ms)
 [ RUN      ] romanosTest.caso3
 [       OK ] romanosTest.caso3 (0 ms)
-[----------] 3 tests from romanosTest (0 ms total)
+[ RUN      ] romanosTest.caso4
+/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:16: Failure
+Expected equality of these values:
+  romanosParaDecimal("IV")
+    Which is: -1
+  3
+
+[  FAILED  ] romanosTest.caso4 (0 ms)
+[----------] 4 tests from romanosTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test suite ran. (0 ms total)
+[==========] 4 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 3 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] romanosTest.caso4
+
+ 1 FAILED TEST
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Passed.
-"RunTests" end time: Apr 29 23:10 -03
+Test Failed.
+"RunTests" end time: Apr 29 23:13 -03
 "RunTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 29 23:10 -03
+End testing: Apr 29 23:13 -03
