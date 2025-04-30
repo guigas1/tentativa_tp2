@@ -1,10 +1,10 @@
-Start testing: Apr 30 00:47 -03
+Start testing: Apr 30 00:50 -03
 ----------------------------------------------------------
 1/1 Testing: RunTests
 1/1 Test: RunTests
 Command: "/home/guiguinhas/Documentos/Projeto1_tp2/build/runTests"
 Directory: /home/guiguinhas/Documentos/Projeto1_tp2/build
-"RunTests" start time: Apr 30 00:47 -03
+"RunTests" start time: Apr 30 00:50 -03
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -55,82 +55,26 @@ Running main() from ./googletest/src/gtest_main.cc
 
 [----------] 5 tests from RomanosTest
 [ RUN      ] RomanosTest.SimboloInvalido
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:69: Failure
-Expected equality of these values:
-  romanosParaDecimal("A")
-    Which is: 7
-  -1
-
-[  FAILED  ] RomanosTest.SimboloInvalido (0 ms)
+[       OK ] RomanosTest.SimboloInvalido (0 ms)
 [ RUN      ] RomanosTest.RepeticaoInvalida
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:73: Failure
-Expected equality of these values:
-  romanosParaDecimal("IIII")
-    Which is: 7
-  -1
-
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:74: Failure
-Expected equality of these values:
-  romanosParaDecimal("VV")
-    Which is: 7
-  -1
-
-[  FAILED  ] RomanosTest.RepeticaoInvalida (0 ms)
+[       OK ] RomanosTest.RepeticaoInvalida (0 ms)
 [ RUN      ] RomanosTest.SubtracaoInvalida
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:78: Failure
-Expected equality of these values:
-  romanosParaDecimal("IL")
-    Which is: 7
-  -1
-
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:79: Failure
-Expected equality of these values:
-  romanosParaDecimal("IC")
-    Which is: 7
-  -1
-
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:80: Failure
-Expected equality of these values:
-  romanosParaDecimal("VX")
-    Which is: 7
-  -1
-
-[  FAILED  ] RomanosTest.SubtracaoInvalida (0 ms)
+[       OK ] RomanosTest.SubtracaoInvalida (0 ms)
 [ RUN      ] RomanosTest.ValorForaDoLimite
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:84: Failure
-Expected equality of these values:
-  romanosParaDecimal("MMMM")
-    Which is: 7
-  -1
-
-[  FAILED  ] RomanosTest.ValorForaDoLimite (0 ms)
+[       OK ] RomanosTest.ValorForaDoLimite (0 ms)
 [ RUN      ] RomanosTest.Vazio
-/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:88: Failure
-Expected equality of these values:
-  romanosParaDecimal("")
-    Which is: 7
-  -1
-
-[  FAILED  ] RomanosTest.Vazio (0 ms)
+[       OK ] RomanosTest.Vazio (0 ms)
 [----------] 5 tests from RomanosTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 25 tests from 2 test suites ran. (0 ms total)
-[  PASSED  ] 20 tests.
-[  FAILED  ] 5 tests, listed below:
-[  FAILED  ] RomanosTest.SimboloInvalido
-[  FAILED  ] RomanosTest.RepeticaoInvalida
-[  FAILED  ] RomanosTest.SubtracaoInvalida
-[  FAILED  ] RomanosTest.ValorForaDoLimite
-[  FAILED  ] RomanosTest.Vazio
-
- 5 FAILED TESTS
+[  PASSED  ] 25 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"RunTests" end time: Apr 30 00:47 -03
+Test Passed.
+"RunTests" end time: Apr 30 00:50 -03
 "RunTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 30 00:47 -03
+End testing: Apr 30 00:50 -03
