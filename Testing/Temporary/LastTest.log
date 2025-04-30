@@ -1,16 +1,16 @@
-Start testing: Apr 30 00:09 -03
+Start testing: Apr 30 00:10 -03
 ----------------------------------------------------------
 1/1 Testing: RunTests
 1/1 Test: RunTests
 Command: "/home/guiguinhas/Documentos/Projeto1_tp2/build/runTests"
 Directory: /home/guiguinhas/Documentos/Projeto1_tp2/build
-"RunTests" start time: Apr 30 00:09 -03
+"RunTests" start time: Apr 30 00:10 -03
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
-[==========] Running 13 tests from 1 test suite.
+[==========] Running 14 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 13 tests from romanosTest
+[----------] 14 tests from romanosTest
 [ RUN      ] romanosTest.caso1
 [       OK ] romanosTest.caso1 (0 ms)
 [ RUN      ] romanosTest.caso2
@@ -37,17 +37,29 @@ Running main() from ./googletest/src/gtest_main.cc
 [       OK ] romanosTest.caso9 (0 ms)
 [ RUN      ] romanosTest.caso40
 [       OK ] romanosTest.caso40 (0 ms)
-[----------] 13 tests from romanosTest (0 ms total)
+[ RUN      ] romanosTest.90
+/home/guiguinhas/Documentos/Projeto1_tp2/test_romanos.cpp:46: Failure
+Expected equality of these values:
+  romanosParaDecimal("XC")
+    Which is: -1
+  90
+
+[  FAILED  ] romanosTest.90 (0 ms)
+[----------] 14 tests from romanosTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 13 tests from 1 test suite ran. (0 ms total)
+[==========] 14 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 13 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] romanosTest.90
+
+ 1 FAILED TEST
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Passed.
-"RunTests" end time: Apr 30 00:09 -03
+Test Failed.
+"RunTests" end time: Apr 30 00:10 -03
 "RunTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 30 00:09 -03
+End testing: Apr 30 00:10 -03
